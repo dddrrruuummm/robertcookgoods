@@ -1,0 +1,106 @@
+[
+  {
+    "file": "public/photos/workspace.webp",
+    "source": "https://www.pexels.com/photo/31213668/",
+    "download": "https://images.pexels.com/photos/31213668/pexels-photo-31213668.jpeg?auto=compress&cs=tinysrgb&w=1600",
+    "license": "https://www.pexels.com/license/",
+    "retrieved": "2026-10-16",
+    "use": "Category/editorial scene, not company facilities, team, completed work, or verified inventory."
+  },
+  {
+    "file": "public/photos/reading.webp",
+    "source": "https://www.pexels.com/photo/30843044/",
+    "download": "https://images.pexels.com/photos/30843044/pexels-photo-30843044.jpeg?auto=compress&cs=tinysrgb&w=1600",
+    "license": "https://www.pexels.com/license/",
+    "retrieved": "2026-10-16",
+    "use": "Category/editorial scene, not company facilities, team, completed work, or verified inventory."
+  },
+  {
+    "file": "public/gallery/humidifier.webp",
+    "title": "Compact humidifiers",
+    "source": "https://www.pexels.com/photo/humidifier-on-wooden-stool-7417506/",
+    "download": "https://images.pexels.com/photos/7417506/pexels-photo-7417506.jpeg?auto=compress&cs=tinysrgb&w=1400",
+    "license": "https://www.pexels.com/license/",
+    "retrieved": "2026-10-16",
+    "use": "Editorial category demonstration. Not claimed company products, stock, staff, or completed projects.",
+    "generation": "none; real source photography",
+    "subject": "A compact form for a quiet corner of the home."
+  },
+  {
+    "file": "public/gallery/kettle.webp",
+    "title": "Everyday kettles",
+    "source": "https://www.pexels.com/photo/white-electric-kettle-on-kitchen-counter-3847567/",
+    "download": "https://images.pexels.com/photos/3847567/pexels-photo-3847567.jpeg?auto=compress&cs=tinysrgb&w=1400",
+    "license": "https://www.pexels.com/license/",
+    "retrieved": "2026-10-16",
+    "use": "Editorial category demonstration. Not claimed company products, stock, staff, or completed projects.",
+    "generation": "none; real source photography",
+    "subject": "Simple countertop objects for the pauses between tasks."
+  },
+  {
+    "file": "public/gallery/desk-light.webp",
+    "title": "Task lighting",
+    "source": "https://www.pexels.com/photo/desk-lamp-beside-a-laptop-4884134/",
+    "download": "https://images.pexels.com/photos/4884134/pexels-photo-4884134.jpeg?auto=compress&cs=tinysrgb&w=1400",
+    "license": "https://www.pexels.com/license/",
+    "retrieved": "2026-10-16",
+    "use": "Editorial category demonstration. Not claimed company products, stock, staff, or completed projects.",
+    "generation": "none; real source photography",
+    "subject": "Focused light for reading, notes, and evening work."
+  },
+  {
+    "file": "public/gallery/laptop-setup.webp",
+    "title": "Raised laptop setups",
+    "source": "https://www.pexels.com/photo/laptop-standing-on-the-desk-in-a-modern-interior-19328775/",
+    "download": "https://images.pexels.com/photos/19328775/pexels-photo-19328775.jpeg?auto=compress&cs=tinysrgb&w=1400",
+    "license": "https://www.pexels.com/license/",
+    "retrieved": "2026-10-16",
+    "use": "Editorial category demonstration. Not claimed company products, stock, staff, or completed projects.",
+    "generation": "none; real source photography",
+    "subject": "A desk arrangement that gives the screen its own place."
+  },
+  {
+    "file": "public/gallery/desk-essentials.webp",
+    "title": "The everyday desktop",
+    "source": "https://www.pexels.com/photo/white-ceramic-mug-on-white-table-4065895/",
+    "download": "https://images.pexels.com/photos/4065895/pexels-photo-4065895.jpeg?auto=compress&cs=tinysrgb&w=1400",
+    "license": "https://www.pexels.com/license/",
+    "retrieved": "2026-10-16",
+    "use": "Editorial category demonstration. Not claimed company products, stock, staff, or completed projects.",
+    "generation": "none; real source photography",
+    "subject": "A closer view of the objects that share a working surface."
+  },
+  {
+    "file": "public/gallery/tea-tray.webp",
+    "title": "Wooden trays",
+    "source": "https://www.pexels.com/photo/wooden-trays-on-white-surface-7675064/",
+    "download": "https://images.pexels.com/photos/7675064/pexels-photo-7675064.jpeg?auto=compress&cs=tinysrgb&w=1400",
+    "license": "https://www.pexels.com/license/",
+    "retrieved": "2026-10-16",
+    "use": "Editorial category demonstration. Not claimed company products, stock, staff, or completed projects.",
+    "generation": "none; real source photography",
+    "subject": "Simple wooden surfaces for keeping everyday objects together."
+  },
+  {
+    "file": "public/gallery/soft-cushion.webp",
+    "title": "Soft furnishings",
+    "source": "https://www.pexels.com/photo/white-throw-pillow-on-a-chair-6312041/",
+    "download": "https://images.pexels.com/photos/6312041/pexels-photo-6312041.jpeg?auto=compress&cs=tinysrgb&w=1400",
+    "license": "https://www.pexels.com/license/",
+    "retrieved": "2026-10-16",
+    "use": "Editorial category demonstration. Not claimed company products, stock, staff, or completed projects.",
+    "generation": "none; real source photography",
+    "subject": "Texture and softness for a seated corner."
+  },
+  {
+    "file": "public/gallery/ordered-desk.webp",
+    "title": "Desktop essentials",
+    "source": "https://www.pexels.com/photo/white-ceramic-mug-beside-black-book-on-brown-wooden-table-214240/",
+    "download": "https://images.pexels.com/photos/214240/pexels-photo-214240.jpeg?auto=compress&cs=tinysrgb&w=1400",
+    "license": "https://www.pexels.com/license/",
+    "retrieved": "2026-10-16",
+    "use": "Editorial category demonstration. Not claimed company products, stock, staff, or completed projects.",
+    "generation": "none; real source photography",
+    "subject": "Notebook, tools, and a quieter surface for the working day."
+  }
+]
