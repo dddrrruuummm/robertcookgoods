@@ -5,6 +5,7 @@
 ## 已配置的信息
 
 - 品牌：Robert Cook Goods
+- 网站主题：深莓红、冷白与浅玫瑰灰（已更新）
 - 联系人：Robert Andrew Cook
 - WhatsApp：+1 848 458 0396
 - 地址：5070 Huntshire Ln SW, Lilburn, GA 30047-7031, Gwinnett County, United States
