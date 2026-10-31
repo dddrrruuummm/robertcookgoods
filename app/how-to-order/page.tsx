@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export const metadata: Metadata = {
   title: "How to Order",
-  description: "Choose KKANG products, prepare your enquiry and discuss availability, prices and delivery with Robert Andrew Cook on WhatsApp.",
+  description: "Choose your products, prepare your enquiry and discuss availability, prices and delivery with Robert Andrew Cook on WhatsApp.",
   alternates: { canonical: "/how-to-order" },
 };
 

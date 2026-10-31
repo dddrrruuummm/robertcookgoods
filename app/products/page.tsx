@@ -4,7 +4,7 @@ import { categories } from "@/lib/products";
 
 export const metadata: Metadata = {
   title: "The Collection",
-  description: "Explore KKANG essentials for home and work, selected for Robert Cook Goods. Build an enquiry and ask Robert about current prices and availability on WhatsApp.",
+  description: "Explore everyday essentials for home and work at Robert Cook Goods. Build an enquiry and ask Robert about current prices and availability on WhatsApp.",
   alternates: { canonical: "/products" },
 };
 
@@ -24,7 +24,7 @@ export default async function ProductsPage({ searchParams }: ProductsPageProps) 
 
   return (
     <>
-      <section className="page-hero"><div className="container"><p className="eyebrow">The KKANG collection</p><h1>Good things.<br /><em>Your way.</em></h1><p className="page-lead">Home and work essentials, selected for everyday living. Find the things you like, then ask Robert about current pricing and availability on WhatsApp.</p></div></section>
+      <section className="page-hero"><div className="container"><p className="eyebrow">The everyday collection</p><h1>Good things.<br /><em>Your way.</em></h1><p className="page-lead">Home and work essentials, selected for everyday living. Find the things you like, then ask Robert about current pricing and availability on WhatsApp.</p></div></section>
       <section className="section collection-section"><div className="container"><CollectionBrowser key={`${category}:${query}`} initialCategory={category} initialQuery={query} /></div></section>
     </>
   );

@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export const metadata: Metadata = {
   title: "About Robert",
-  description: "Meet Robert Andrew Cook, your contact for a selection of KKANG home and desk products and direct WhatsApp enquiries.",
+  description: "Meet Robert Andrew Cook, your contact for home and desk essentials at Robert Cook Goods.",
   alternates: { canonical: "/about" },
 };
 
@@ -14,7 +14,7 @@ export default function AboutPage() {
         <div className="container">
           <p className="eyebrow">Robert Cook Goods</p>
           <h1>Everyday goods.<br /><em>A direct conversation.</em></h1>
-          <p className="page-lead">A selection of KKANG home and desk products, offered for resale by Robert Andrew Cook.</p>
+          <p className="page-lead">Thoughtful home and desk essentials, selected by Robert Andrew Cook.</p>
         </div>
       </section>
 
@@ -25,7 +25,7 @@ export default function AboutPage() {
             <h2>Talk to Robert.</h2>
             <div className="prose">
               <p>Robert Andrew Cook is your contact for the products shown in this collection. Browse the range, gather the items you like, and start a conversation about what you need.</p>
-              <p>The selection brings together KKANG objects for working, organizing and unwinding at home. Each product page gives you a starting point for asking about the current version, availability and price.</p>
+              <p>The collection brings together useful objects for working, organizing and unwinding at home. Each product page gives you a starting point for asking about the current version, availability and price.</p>
               <p>Your enquiry goes directly into a WhatsApp conversation with Robert. Quantities, delivery arrangements and the details of any purchase are agreed there before an order is placed.</p>
             </div>
             <Link href="/products" className="text-link">Explore the collection <span aria-hidden="true">↗</span></Link>
@@ -34,7 +34,7 @@ export default function AboutPage() {
             <p className="eyebrow">Your point of contact</p>
             <div className="about-signature" aria-hidden="true">Robert Cook</div>
             <h3>Robert Andrew Cook</h3>
-            <p>Product enquiries &amp; resale</p>
+            <p>Product enquiries &amp; orders</p>
             <p>A personal conversation about the items you choose, from the first question to the details of your order.</p>
             <Link href="/contact" className="button button-dark">Start an enquiry <span aria-hidden="true">↗</span></Link>
           </aside>

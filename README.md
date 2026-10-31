@@ -9,7 +9,7 @@
 - WhatsApp：+1 848 458 0396
 - 地址：5070 Huntshire Ln SW, Lilburn, GA 30047-7031, Gwinnett County, United States
 - 预设域名：robertcookgoods.com
-- 12 款 KKANG 产品，支持分类搜索、产品详情、询价清单和 WhatsApp 消息预填。
+- 12 款精选家居与办公用品，支持分类搜索、产品详情、询价清单和 WhatsApp 消息预填。
 
 ## 1. 上传到 GitHub
 
@@ -77,9 +77,9 @@ npm run build
 npm run typecheck
 ```
 
-联系方式集中在 `lib/site.ts`，产品信息在 `lib/products.ts`，图片在 `public/products/`。图片来源记录在 `docs/`，字体许可证在 `public/fonts/`。
+联系方式集中在 `lib/site.ts`，产品信息在 `lib/products.ts`，图片在 `public/products/`。字体许可证在 `public/fonts/`。
 
-本文件夹不包含原始 KKANG 项目、开发缓存、安装好的依赖、预览截图、测试报告或设计技能文件。
+本文件夹仅包含本网站源码、所需图片及字体许可证，不包含开发缓存、安装好的依赖、预览截图、测试报告或设计技能文件。
 
 ## 官方部署说明
 

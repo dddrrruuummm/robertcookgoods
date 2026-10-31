@@ -8,5 +8,5 @@ export function cleanLines(value:unknown):EnquiryLine[]{
 }
 export function buildEnquiryMessage(lines:EnquiryLine[],notes="",name=""){
  const list=cleanLines(lines).map(line=>{const p=getProduct(line.productId)!;return `• ${p.name} — quantity ${line.quantity} (ref. RC-${p.number})`;});
- return ["Hi Robert,",list.length?"I'd like to enquire about these KKANG products:":"I'd like to know more about your KKANG product selection.",list.length?list.join("\n"):null,name.trim()?`My name: ${name.trim()}`:null,notes.trim()?`My notes: ${notes.trim()}`:null,"Please confirm availability, current pricing and delivery options. Thank you."].filter(Boolean).join("\n\n");
+ return ["Hi Robert,",list.length?"I'd like to enquire about these products:":"I'd like to know more about your product selection.",list.length?list.join("\n"):null,name.trim()?`My name: ${name.trim()}`:null,notes.trim()?`My notes: ${notes.trim()}`:null,"Please confirm availability, current pricing and delivery options. Thank you."].filter(Boolean).join("\n\n");
 }
