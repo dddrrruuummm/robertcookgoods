@@ -1,56 +1,11 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
-
-export const metadata: Metadata = {
-  title: "About Robert",
-  description: "Meet Robert Andrew Cook, your contact for home and desk essentials at Robert Cook Goods.",
-  alternates: { canonical: "/about" },
-};
-
+import { ArrowUpRight } from "lucide-react";
+import { products } from "@/lib/products";
+import { WhatsAppLink } from "@/components/enquiry-provider";
+export const metadata: Metadata = { title: "About Robert", description: "Meet Robert Andrew Cook, your direct contact for products and enquiries at Robert Cook Goods.", alternates: { canonical: "/about" } };
 export default function AboutPage() {
-  return (
-    <>
-      <section className="page-hero">
-        <div className="container">
-          <p className="eyebrow">Robert Cook Goods</p>
-          <h1>Everyday goods.<br /><em>A direct conversation.</em></h1>
-          <p className="page-lead">Thoughtful home and desk essentials, selected by Robert Andrew Cook.</p>
-        </div>
-      </section>
-
-      <section className="section">
-        <div className="container split-layout">
-          <div>
-            <p className="eyebrow">The person behind the conversation</p>
-            <h2>Talk to Robert.</h2>
-            <div className="prose">
-              <p>Robert Andrew Cook is your contact for the products shown in this collection. Browse the range, gather the items you like, and start a conversation about what you need.</p>
-              <p>The collection brings together useful objects for working, organizing and unwinding at home. Each product page gives you a starting point for asking about the current version, availability and price.</p>
-              <p>Your enquiry goes directly into a WhatsApp conversation with Robert. Quantities, delivery arrangements and the details of any purchase are agreed there before an order is placed.</p>
-            </div>
-            <Link href="/products" className="text-link">Explore the collection <span aria-hidden="true">↗</span></Link>
-          </div>
-          <aside className="info-panel">
-            <p className="eyebrow">Your point of contact</p>
-            <div className="about-signature" aria-hidden="true">Robert Cook</div>
-            <h3>Robert Andrew Cook</h3>
-            <p>Product enquiries &amp; orders</p>
-            <p>A personal conversation about the items you choose, from the first question to the details of your order.</p>
-            <Link href="/contact" className="button button-dark">Start an enquiry <span aria-hidden="true">↗</span></Link>
-          </aside>
-        </div>
-      </section>
-
-      <section className="section">
-        <div className="container">
-          <div className="section-heading"><div><p className="eyebrow">A simple way to shop</p><h2>A little more considered.</h2></div></div>
-          <div className="values-grid">
-            <article className="value-card"><p className="eyebrow">01 / Browse</p><h3>Find your everyday.</h3><p>Explore objects for a clearer desk, a comfortable workday and the small routines around your home.</p></article>
-            <article className="value-card"><p className="eyebrow">02 / Ask</p><h3>Get the details.</h3><p>Ask Robert about the item, the quantity you need, its current price and the options available.</p></article>
-            <article className="value-card"><p className="eyebrow">03 / Confirm</p><h3>Agree before ordering.</h3><p>Review the product details, total cost and delivery arrangements in your conversation before making a purchase.</p></article>
-          </div>
-        </div>
-      </section>
-    </>
-  );
+  const images = [products.filter(p => p.category === "Workspace")[3]!, products.filter(p => p.category === "Daily rituals")[3]!];
+  return <><section className="page-hero"><div className="container"><h1>Everyday goods.<br/>A direct line.</h1><p className="page-lead">Robert Cook Goods brings home, workspace and daily essentials into one place, with a direct conversation at the heart of every enquiry.</p></div></section><section className="section"><div className="container about-layout"><div className="about-photo-pair">{images.map(p => <div className="about-photo" key={p.id}><Image src={p.image} alt={p.name} fill sizes="(max-width:750px) 46vw,24vw"/></div>)}</div><div className="about-copy"><h2>Talk to Robert.</h2><div className="prose"><p>Robert Andrew Cook is your point of contact at Robert Cook Goods. Browse the products, put together an enquiry and discuss the details directly on WhatsApp.</p><p>The range covers useful additions to your desk, your living space and familiar daily routines. Pick the items you’re interested in and ask about current options, pricing and quantities.</p><p>Before arranging an order, agree the exact products, total cost, payment method and delivery details together.</p></div><WhatsAppLink>Start a conversation</WhatsAppLink><Link className="text-link" href="/products">Explore the products <ArrowUpRight size={18}/></Link></div></div></section><section className="about-statement"><div className="container"><h2>A good find.<br/>A straightforward next step.</h2><p>One list for the items you like. One conversation for the questions that matter.</p><Link className="button button-dark" href="/how-to-order">How enquiries work <ArrowUpRight size={19}/></Link></div></section></>;
 }

@@ -5,12 +5,12 @@
 ## 已配置的信息
 
 - 品牌：Robert Cook Goods
-- 网站主题：深莓红、冷白与浅玫瑰灰（已更新）
+- 网站主题：钴蓝、白色与明黄（2026-11-04全新重做）
 - 联系人：Robert Andrew Cook
 - WhatsApp：+1 848 458 0396
 - 地址：5070 Huntshire Ln SW, Lilburn, GA 30047-7031, Gwinnett County, United States
 - 预设域名：robertcookgoods.com
-- 12 款精选家居与办公用品，支持分类搜索、产品详情、询价清单和 WhatsApp 消息预填。
+- 24 款全新家居与办公日用品，支持分类搜索、产品详情、询价清单和 WhatsApp 消息预填。
 
 ## 1. 上传到 GitHub
 
@@ -78,7 +78,7 @@ npm run build
 npm run typecheck
 ```
 
-联系方式集中在 `lib/site.ts`，产品信息在 `lib/products.ts`，图片在 `public/products/`。字体许可证在 `public/fonts/`。
+联系方式集中在 `lib/site.ts`，产品信息在 `lib/products.ts`，图片在 `public/images/`。字体许可证在 `public/fonts/`。
 
 本文件夹仅包含本网站源码、所需图片及字体许可证，不包含开发缓存、安装好的依赖、预览截图、测试报告或设计技能文件。
 
@@ -86,3 +86,10 @@ npm run typecheck
 
 - https://vercel.com/docs/frameworks/full-stack/nextjs
 - https://vercel.com/docs/project-configuration
+
+
+## 2026-11-04 redesign
+
+24 new products and 24 different local photographs. Categories: Workspace, Home & living, Daily rituals (8 each). All previous product images, editorial images and unused fonts have been removed from this package.
+
+When replacing an existing repository, replace the complete source with this folder. Remove the old public/products and public/editorial folders rather than leaving their old assets online.

@@ -1,1 +1,6 @@
-export function Brand({compact=false}:{compact?:boolean}){return <span className={`brand ${compact?"brand-compact":""}`}><svg width="40" height="43" viewBox="0 0 45 48" fill="none" aria-hidden="true"><path d="M7 39V9H20C31 9 32 25 20 25H8M20 25L33 40" stroke="currentColor" strokeWidth="2.8" strokeLinecap="round" strokeLinejoin="round"/><path d="M37 12C32 6 22 7 18 13C14 19 16 29 24 32C29 34 35 33 39 28" stroke="currentColor" strokeWidth="2.8" strokeLinecap="round"/><circle cx="39" cy="40" r="2" fill="currentColor"/></svg><span><strong>robert cook<span className="brand-goods">goods</span></strong>{!compact&&<small>GOOD THINGS. EVERY DAY.</small>}</span></span>}
+export function Brand({ compact = false }: { compact?: boolean }) {
+  return <span className={`brand${compact ? " brand-compact" : ""}`}>
+    <svg width="43" height="43" viewBox="0 0 48 48" fill="none" aria-hidden="true"><path d="M6 16 24 6l18 10-18 10L6 16Z" stroke="currentColor" strokeWidth="3.4" strokeLinejoin="round"/><path d="m6 25 18 10 18-10M6 34l18 10 18-10" stroke="currentColor" strokeWidth="3.4" strokeLinejoin="round"/><path d="m16 10 18 10M24 26v18" stroke="currentColor" strokeWidth="3.4"/></svg>
+    <span className="brand-wordmark"><strong>ROBERT COOK</strong><span>GOODS<span className="brand-period">.</span></span></span>
+  </span>;
+}

@@ -16,7 +16,7 @@ export const site = {
     countryName:"United States",
     mapsUrl:"https://www.google.com/maps/search/?api=1&query=5070%20Huntshire%20Ln%20SW%2C%20Lilburn%2C%20GA%2030047-7031",
   },
-  tagline:"Good things for everyday living.",
+  tagline:"Good goods. Better days.",
 };
 export const whatsappReady = /^[1-9]\d{6,14}$/.test(site.whatsappNumber);
 export function whatsappUrl(message:string){

@@ -24,7 +24,7 @@ export default async function ProductsPage({ searchParams }: ProductsPageProps) 
 
   return (
     <>
-      <section className="page-hero"><div className="container"><p className="eyebrow">The everyday collection</p><h1>Good things.<br /><em>Your way.</em></h1><p className="page-lead">Home and work essentials, selected for everyday living. Find the things you like, then ask Robert about current pricing and availability on WhatsApp.</p></div></section>
+      <section className="page-hero"><div className="container"><h1>Meet your new<br />everyday goods.</h1><p className="page-lead">Home and work essentials, selected for everyday living. Find the things you like, then ask Robert about current pricing and availability on WhatsApp.</p></div></section>
       <section className="section collection-section"><div className="container"><CollectionBrowser key={`${category}:${query}`} initialCategory={category} initialQuery={query} /></div></section>
     </>
   );

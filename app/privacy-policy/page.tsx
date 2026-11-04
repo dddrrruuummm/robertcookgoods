@@ -6,7 +6,7 @@ export const metadata: Metadata = { title: "Privacy", description: "How Robert C
 export default function PrivacyPage() {
   return (
     <>
-      <section className="page-hero"><div className="container"><p className="eyebrow">The useful details</p><h1>Your privacy.</h1><p className="page-lead">How information is handled while you browse and prepare an enquiry.</p></div></section>
+      <section className="page-hero"><div className="container"><h1>Your privacy.</h1><p className="page-lead">How information is handled while you browse and prepare an enquiry.</p></div></section>
       <div className="container section legal-layout">
         <aside className="legal-aside"><p className="eyebrow">Privacy policy</p><p>Updated October 31, 2026</p><Link className="text-link" href="/contact">Contact Robert <span aria-hidden="true">↗</span></Link></aside>
         <div className="legal-content prose">

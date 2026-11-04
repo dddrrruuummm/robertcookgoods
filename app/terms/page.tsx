@@ -6,7 +6,7 @@ export const metadata: Metadata = { title: "Terms", description: "Product browsi
 export default function TermsPage() {
   return (
     <>
-      <section className="page-hero"><div className="container"><p className="eyebrow">The useful details</p><h1>Clear from the start.</h1><p className="page-lead">A few things to know about browsing, enquiries and arranging a purchase.</p></div></section>
+      <section className="page-hero"><div className="container"><h1>Clear from the start.</h1><p className="page-lead">A few things to know about browsing, enquiries and arranging a purchase.</p></div></section>
       <div className="container section legal-layout">
         <aside className="legal-aside"><p className="eyebrow">Website terms</p><p>Updated October 31, 2026</p><Link className="text-link" href="/how-to-order">How to order <span aria-hidden="true">↗</span></Link></aside>
         <div className="legal-content prose">

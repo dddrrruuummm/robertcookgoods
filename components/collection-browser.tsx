@@ -58,7 +58,7 @@ export function CollectionBrowser({ initialCategory = "All products", initialQue
       {filtered.length > 0 ? (
         <div className="product-grid" id="collection-results">{filtered.map((product, index) => <ProductCard product={product} key={product.id} priority={index < 3} />)}</div>
       ) : (
-        <div className="collection-empty" id="collection-results"><p className="eyebrow">A fresh start</p><h2>No products found.</h2><p>Try another search or explore the full collection.</p><button className="button button-dark" type="button" onClick={resetCollection}>Reset the collection <ArrowUpRight size={17} aria-hidden="true" /></button></div>
+        <div className="collection-empty" id="collection-results"><h2>No products found.</h2><p>Try another search or explore the full collection.</p><button className="button button-dark" type="button" onClick={resetCollection}>Reset the collection <ArrowUpRight size={17} aria-hidden="true" /></button></div>
       )}
     </div>
   );
